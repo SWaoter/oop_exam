@@ -342,9 +342,9 @@ namespace OOP_Exam
                             };
                             var smtp = new SmtpClient("smtp.gmail.com")
                             {
-                                Credentials = new NetworkCredential("oop.exam.xam", "119977aA"),
+                                Credentials = new NetworkCredential("oop.exam.xam", ""),
                                 EnableSsl = true
-                            };
+                            }; // password is not pulic.
                             smtp.Send(m);
                             marker.Availability = true;
                         }
