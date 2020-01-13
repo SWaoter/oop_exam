@@ -22,18 +22,18 @@ namespace OOP_Exam
             string geocodeAddress = Intent.GetStringExtra("geocode");
             string title = Intent.GetStringExtra("m_title");
             string radius = Intent.GetStringExtra("m_rad");
-            TextView title_v = FindViewById<TextView>(Resource.Id.ttext1);
-            TextView radius_v = FindViewById<TextView>(Resource.Id.ttext2);
-            TextView address_v = FindViewById<TextView>(Resource.Id.ttext3);
+            TextView titleV = FindViewById<TextView>(Resource.Id.ttext1);
+            TextView radiusV = FindViewById<TextView>(Resource.Id.ttext2);
+            TextView addressV = FindViewById<TextView>(Resource.Id.ttext3);
             Button cancel = FindViewById<Button>(Resource.Id.ret_b);
             cancel.Click += (sender, e) =>
             {
                 var intent = new Intent(this, typeof(MainActivity));
                 StartActivity(intent);
             };
-            title_v.Text = title;
-            radius_v.Text = radius;
-            address_v.Text = geocodeAddress;
+            titleV.Text = title;
+            radiusV.Text = radius;
+            addressV.Text = geocodeAddress;
         }
     }
 }

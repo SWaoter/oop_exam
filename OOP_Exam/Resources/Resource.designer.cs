@@ -4750,6 +4750,9 @@ namespace OOP_Exam
 			// aapt resource value: 0x7f0f004c
 			public const int collapseActionView = 2131689548;
 			
+			// aapt resource value: 0x7f0f00ea
+			public const int confirm_e = 2131689706;
+			
 			// aapt resource value: 0x7f0f00b1
 			public const int container = 2131689649;
 			
@@ -4794,6 +4797,9 @@ namespace OOP_Exam
 			
 			// aapt resource value: 0x7f0f0034
 			public const int disableHome = 2131689524;
+			
+			// aapt resource value: 0x7f0f00e9
+			public const int edit_email = 2131689705;
 			
 			// aapt resource value: 0x7f0f009a
 			public const int edit_query = 2131689626;
@@ -4885,8 +4891,8 @@ namespace OOP_Exam
 			// aapt resource value: 0x7f0f0073
 			public const int italic = 2131689587;
 			
-			// aapt resource value: 0x7f0f00eb
-			public const int item1 = 2131689707;
+			// aapt resource value: 0x7f0f00ed
+			public const int item1 = 2131689709;
 			
 			// aapt resource value: 0x7f0f0000
 			public const int item_touch_helper_previous_elevation = 2131689472;
@@ -4918,8 +4924,8 @@ namespace OOP_Exam
 			// aapt resource value: 0x7f0f00a8
 			public const int map = 2131689640;
 			
-			// aapt resource value: 0x7f0f00ea
-			public const int masked = 2131689706;
+			// aapt resource value: 0x7f0f00ec
+			public const int masked = 2131689708;
 			
 			// aapt resource value: 0x7f0f00ca
 			public const int media_actions = 2131689674;
@@ -5281,8 +5287,8 @@ namespace OOP_Exam
 			// aapt resource value: 0x7f0f001b
 			public const int view_offset_helper = 2131689499;
 			
-			// aapt resource value: 0x7f0f00e9
-			public const int visible = 2131689705;
+			// aapt resource value: 0x7f0f00eb
+			public const int visible = 2131689707;
 			
 			// aapt resource value: 0x7f0f002e
 			public const int wide = 2131689518;
@@ -5620,6 +5626,9 @@ namespace OOP_Exam
 			// aapt resource value: 0x7f04004b
 			public const int support_simple_spinner_dropdown_item = 2130968651;
 			
+			// aapt resource value: 0x7f04004c
+			public const int user_email = 2130968652;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -5807,6 +5816,15 @@ namespace OOP_Exam
 			// aapt resource value: 0x7f0b0051
 			public const int action_settings = 2131427409;
 			
+			// aapt resource value: 0x7f0b0053
+			public const int app_email = 2131427411;
+			
+			// aapt resource value: 0x7f0b0054
+			public const int app_email_login = 2131427412;
+			
+			// aapt resource value: 0x7f0b0055
+			public const int app_email_pass = 2131427413;
+			
 			// aapt resource value: 0x7f0b0050
 			public const int app_name = 2131427408;
 			
@@ -5932,6 +5950,9 @@ namespace OOP_Exam
 			
 			// aapt resource value: 0x7f0b0035
 			public const int search_menu_title = 2131427381;
+			
+			// aapt resource value: 0x7f0b0056
+			public const int smtp_client = 2131427414;
 			
 			// aapt resource value: 0x7f0b004f
 			public const int status_bar_notification_info_overflow = 2131427407;
